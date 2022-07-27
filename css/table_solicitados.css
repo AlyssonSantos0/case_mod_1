@@ -114,6 +114,7 @@ body{
     text-align: center;
     background-color: #5dca6b;
     border-bottom: 3px solid #26395f ;
+    margin-top: 80px;
     margin-right: 20px;
 }
 
@@ -127,4 +128,5 @@ body{
     text-align: center;
     background-color: #c54151;
     border-bottom: 3px solid #26395f ;
+    margin-top: 80px;
 }
