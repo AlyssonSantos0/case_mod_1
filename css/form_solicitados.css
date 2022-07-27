@@ -1,0 +1,197 @@
+@font-face {
+	font-family: "Aeonik";
+	src: url(../fonts//AeonikTRIAL-Regular.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+    font-family: Aeonik;
+    text-transform: uppercase;
+ }
+
+body{
+    margin: 0 auto;
+	font-size: 14px;
+}
+
+#cabecalho{
+    margin: 0 auto;
+    width: 95%;
+    margin-top: 15px;
+}
+
+#cabecalho .title h1{
+    font-size: 18pt;
+    color: #5dca6b;
+}
+
+#cabecalho .title img{
+    width: 20%;
+}
+
+#corpo_principal{
+    margin: 0 auto;
+    width: 100%;
+}
+
+#corpo_principal #botoes_solicitacao{
+    display: inline-block;
+    margin-left: 68.5%;
+    margin-bottom: 20px;
+}
+
+#corpo_principal .botoes{
+    display: inline-block;
+    margin-left: 66%;
+    margin-bottom: 20px;
+}
+
+.botoes .bto_Pagina{
+    font-size: 8pt;
+    text-decoration: none;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    background-color: #5979f2;
+    border-bottom: 3px solid #26395f ;
+}
+
+#corpo_principal #tabela1{
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+
+#corpo_principal #tabela2{
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+
+#corpo_principal .table{
+    margin: 0 auto;
+    width: 95%;
+    text-align: center;
+}
+
+.table #table-title{
+    border: 1px solid #000;
+}
+
+.table .azul-escuro{
+    color: #ffffff;
+    background-color: #26395f;
+    padding: 10px;
+    text-align: center;
+}
+.table .azul-claro{
+    color: #ffffff;
+    background-color: #5979f2;
+    padding: 10px;
+    text-align: center;
+}
+
+.table td{
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+#corpo_principal #section-forms-cadastrar{
+    width: 95%;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+#section-forms-cadastrar #titulo-cadastrar{
+    width: 830px;
+    height: 60px;
+}
+
+
+#section-forms-cadastrar .titulo-form{
+    margin: 0 auto;
+    width: 670px;
+    height: 60px;
+    font-size: 18pt;
+    text-align: center;
+    line-height: 60px;
+    color: #ffffff;
+    background-color: #5979f2;
+    border-bottom: 3px solid #26395f;
+    margin-bottom: 60px;
+}
+
+#section-forms-cadastrar #form-cadastrar{
+    margin: 0 auto;
+    width: 100%
+}
+
+#form-cadastrar .grupo{
+    width: 300px;
+    height: 50px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#section-forms-cadastrar #form-solicitar{
+    margin: 0 auto;
+    width: 100%
+}
+
+#form-solicitar .grupo{
+    width: 300px;
+    height: 50px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.grupo .titulos{
+    font: 16pt;
+    margin-top: 20px;
+}
+
+.grupo .campo{
+    width: 100%;
+    height: 90%;
+    border: none;
+    border-bottom: 3px solid #26395f;
+    text-transform: uppercase;
+}
+
+.campo:focus{
+    outline: 0;
+    border-bottom: 3px solid #5979f2;
+}
+
+.bto-principal{
+    width: 130px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    color: #ffffff;
+    background-color: #5979f2;
+    border-bottom: 3px solid #26395f ;
+    line-height: 40px;
+    font-size: 16pt;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#corpo_principal .botoes{
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.botoes .bto_Pagina{
+    font-size: 16pt;
+    text-decoration: none;
+    padding: 9px;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    background-color: #5979f2;
+    border-bottom: 3px solid #26395f ;
+}
+
+.bto_Pagina:hover{
+    color: #ffffff;
+}

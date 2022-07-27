@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./img/Logo Whatsapp.png">
+    <link rel="stylesheet" href="./css/form_solicitados.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <title>Solicitações</title>
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="title">
+            <img  src="./img/0907_LogoJanelaParaOMundo-04.png" alt="logo do centro de educação janela para o mundo da omega energia">
+            <h1 class="proprietaria ">Controle de Solicitações de Equipamentos e Peças | Centros de Educação </h1>
+        </div>
+	</header>
+    <main id="corpo_principal">
+        <div class="botoes">
+            <a href="./home.html" id="btn_geral" class="bto_Pagina">Home</a>
+            <a href="./table_solicitados.html" id="btn_controle" class="bto_Pagina">Ficha de Solicitações</a>
+        </div>
+
+        <section id="section-forms-cadastrar">
+
+            <form id="form-solicitar">
+                <div class="grupo">
+                    <label for="ce" class="titulos">Centro de Educação:</label>
+                    <select name="Centro de Educação" id="ce" class="campo" required>
+                        <option value="Selecione uma opção">Selecione uma opção</option>
+                        <option value="CENTRO DE EDUCAÇÃO MARANHÃO">Centro de Educação Maranhão</option>
+                        <option value="CENTRO DE EDUCAÇÃO PIAUÍ">Centro de Educação Piauí</option>
+                        <option value="CENTRO DE EDUCAÇÃO BAHIA">Centro de Educação Bahia</option>
+                    </select>
+                </div>
+                <div class="grupo">
+                    <label for="sala" class="titulos">Sala:</label>
+                    <input id="sala" name="sala" type="text" placeholder="digite a sala" class="campo" required>
+                </div>
+                <div class="grupo">
+                    <label for="equipamentoPecas" class="titulos">Equipamento ou Peça:</label>
+                    <input id="equipamentoPecas" name="equipamentoPecas" type="equipamentoPecas" placeholder="digite o equipamento ou peça" class="campo" required>
+                </div>
+                <div class="grupo">
+                    <label for="modelo" class="titulos">Modelo:</label>
+                    <input id="modelo" name="modelo" type="text" placeholder="digite o modelo" class="campo" required>
+                </div>
+                <div class="grupo">
+                    <label for="marca" class="titulos">Marca:</label>
+                    <input id="marca" name="marca" type="text" placeholder="digite a marca" class="campo" required>
+                </div>
+                <div class="grupo">
+                    <label for="quantidade" class="titulos">Quantiadade:</label>
+                    <input id="quantidade" name="quantidade" type="text" placeholder="digite a quantidade" class="campo" required>
+                </div>
+                <div class="grupo ">
+                    <label for="justificativa" class="titulos">Justificativa:</label>
+                    <input id="justificativa" name="justificativa" type="text" placeholder="digite a justificativa" class="campo" required>
+                </div>
+                <button id="cadastrar-solicitacao" class="bto-principal">Cadastrar Solicitação</button>
+            </form>
+        </section>
+    </main>
+
+<script src="./js/jquery-3.6.0.min.js"></script>
+<script src="./js/bootstrap.js"></script>
+<script src="./js/forms2.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+@font-face {
+	font-family: "Aeonik";
+	src: url(../fonts/AeonikTRIAL-Light.otf);
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: #dddbd7;
+}
+
+#nova_senha{
+	color: #dddbd7;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+#nova_senha:hover{
+	color: #5979f2;
+	text-decoration: underline;
+}
+
+img{
+	margin: 0 auto;
+	width: 60%;
+	background-color: #fff;
+	border-radius: 15px;
+	margin-bottom: 50px;
+}
+
+/*container*/
+.container{
+	width: 100%;
+	height: 100%;
+}
+
+.login-screen{
+	width: 430px;
+    height: 500px;
+	background: linear-gradient(#5979f2, #26395f);
+	border-radius: 15px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	padding-top: 20px;
+	color: #fff;
+	align-items: center;
+	line-height: 50px;
+}
+
+.form{
+	display: flex;
+	flex-direction: column;
+}
+
+.inputs{
+	width: 80%;
+	height: 50px;
+	margin: 0 auto;
+	padding: 10px;
+	border: none;
+	margin-bottom: 13px;
+	border-radius: 50px;
+}
+
+input:focus{
+	text-shadow: none;
+	outline: 0;
+	border: 2px solid #5b00c2;
+}
+
+.btn_login{
+	margin: 0 auto;
+	width: 80%;
+	padding: 5px;
+	margin-top: 13px;
+	border-radius: 50px;
+	border: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+	background: linear-gradient(to right, #ec622a, #eecd54);
+	cursor: pointer;
+}
+
+.description{
+	color: #dddbd7;
+	font-size: 13px;
+	margin-top: 10px;
+}
+
+.description a{
+	color: #dddbd7;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 700;
+}

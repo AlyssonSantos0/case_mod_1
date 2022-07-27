@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./img/Logo Whatsapp.png">
+    <link rel="stylesheet" href="./css/table_solicitados.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <title>Ficha de Solicitações</title>
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="title">
+            <img  src="./img/0907_LogoJanelaParaOMundo-04.png" alt="logo do centro de educação janela para o mundo da omega energia">
+            <h1 class="proprietaria ">Solicitacões de equipamentos e peças | Centro de Educação </h1>
+        </div>
+	</header>
+    <main id="corpo_principal">
+
+        <section id="tabela2" class="table">
+            <div id="botoes_solicitacao" class="botoes">
+                <a href="./forms_solicitados.html" id="btn_controle" class="bto_Pagina">Cadastrar Solicitações</a>
+                <button id="btn_exportar" class="bto_exportar">Exportar para Excel</button>
+            </div>
+            <table>
+                <thead>
+                    <tr id="table-title">
+                        <th class="azul-escuro">Centro de Educação</th>
+                        <th class="azul-escuro">Sala</th>
+                        <th class="azul-claro">Equipamento</th>
+                        <th class="azul-claro">Modelo</th>
+                        <th class="azul-claro">Marca</th>
+                        <th class="azul-claro">Quantidade</th>
+                        <th class="azul-claro">Status</th>
+                        <th class="azul-claro">Justificativa</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela-solitacao">
+                    <tr id="solicitados1" class="solicitados">
+                        <td>CENTRO DE EDUCAÇÃO MARANHÃO</td>
+                        <td>Sala 09</td>
+                        <td>Projetor</td>
+                        <td>V11h981020</td>
+                        <td>Epson</td>
+                        <td>3</td>
+                        <td>Aceito</td>
+                        <td>ajudará as aulas a serem mais didáticas</td>
+                    </tr>
+                    <tr id="solicitados2" class="solicitados">
+                        <td>CENTRO DE EDUCAÇÃO PIAUÍ</td>
+                        <td>Sala 02</td>
+                        <td>monitor</td>
+                        <td>MLP170</td>
+                        <td>PCTop</td>
+                        <td>10</td>
+                        <td>em espera</td>
+                        <td>montagem de um novo laboratório de informática</td>
+                    </tr>
+                    <tr id="solicitados3" class="solicitados">
+                        <td>CENTRO DE EDUCAÇÃO BAHIA</td>
+                        <td>Sala 15</td>
+                        <td>kit Lego Education Ev3</td>
+                        <td>Mindstorms Education Ev3</td>
+                        <td>Lego</td>
+                        <td>20</td>
+                        <td>recusado</td>
+                        <td>construção de um laboratório de robótica</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <button id="btn_aceitar" class="bto_confir">Aceitar</button>
+            <button id="btn_recusar" class="bto_confir">Recusar</button>
+        </section>
+    </main>
+
+<script src="./js/jquery-3.6.0.min.js"></script>
+<script src="./js/bootstrap.js"></script>
+<script src="./js/forms2.js"></script>
+</body>
+</html>
